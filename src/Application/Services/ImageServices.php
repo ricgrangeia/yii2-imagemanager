@@ -9,15 +9,15 @@
  * Copyright All rights reserved.
  */
 
-namespace Application\Services;
+namespace ricgrangeia\yii2ImageManager\Application\Services;
 
 use Yii;
-use Domain\Entity\Image;
+use ricgrangeia\yii2ImageManager\Domain\Entity\Image;
 use kartik\form\ActiveForm;
 use common\Helpers\FileHelper;
 use yii\db\StaleObjectException;
-use common\modules\ImageManager\Domain\Repository\ImageRepositoryInterface;
-use common\modules\ImageManager\Infrastructure\Repository\Yii2ImageRepository;
+use ricgrangeia\yii2ImageManager\Domain\Repository\ImageRepositoryInterface;
+use ricgrangeia\yii2ImageManager\Infrastructure\Repository\Yii2ImageRepository;
 
 class ImageServices {
 

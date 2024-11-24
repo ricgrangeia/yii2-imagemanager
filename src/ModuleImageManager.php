@@ -12,7 +12,9 @@
 namespace ricgrangeia\yii2ImageManager;
 
 use Yii;
-use common\Helpers\StringHelper;
+use ricgrangeia\yii2ModuleBase\Module;
+use ricgrangeia\yii2ImageManager\Helpers\StringHelper;
+
 
 class ModuleImageManager extends Module {
 

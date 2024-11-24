@@ -1,6 +1,6 @@
 <?php
 
-namespace Domain\Entity;
+namespace ricgrangeia\yii2ImageManager\Domain\Entity;
 
 use yii\base\Model;
 use yii\data\ActiveDataProvider;

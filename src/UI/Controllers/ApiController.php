@@ -3,13 +3,14 @@
 namespace ricgrangeia\yii2ImageManager\UI\Controllers;
 
 use Yii;
+use yii\web\Response;
 use yii\web\Controller;
 use yii\web\UploadedFile;
 use yii\filters\VerbFilter;
-use Domain\Entity\ImageSearch;
-use Application\Services\ImageServices;
-use Application\Services\ImageManagerServices;
-use common\modules\ImageManager\UI\Controllers\Response;
+use ricgrangeia\yii2ImageManager\Domain\Entity\ImageSearch;
+use ricgrangeia\yii2ImageManager\Application\Services\ImageServices;
+use ricgrangeia\yii2ImageManager\Application\Services\ImageManagerServices;
+
 
 /**
  * ImageController implements the CRUD actions for Image model.
@@ -97,7 +98,7 @@ class ApiController extends Controller {
 	}
 
 	public function actionUpload(): array {
-		\Yii::$app->response->format = \yii\web\Response::FORMAT_JSON;
+		\Yii::$app->response->format = Response::FORMAT_JSON;
 
 		// Get the uploaded files
 		$uploadedFiles = UploadedFile::getInstancesByName('filesUpload');

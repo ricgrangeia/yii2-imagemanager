@@ -9,7 +9,7 @@
  * Copyright All rights reserved.
  */
 
-namespace Domain\Entity;
+namespace ricgrangeia\yii2ImageManager\Domain\Entity;
 
 use common\modules\ImageManager\Domain\Entity\Exception;
 use common\modules\ImageManager\Domain\Entity\ImageTable\ImageTable;

@@ -1,13 +1,13 @@
 <?php
 
-namespace Application\Behaviors;
+namespace ricgrangeia\yii2ImageManager\Application\Behaviors;
 
 use yii\base\Event;
 use yii\base\Behavior;
-use Helpers\ModelHelper;
 use yii\db\ActiveRecord;
 use yii\web\UploadedFile;
-use Application\Services\ImageManagerServices;
+use ricgrangeia\yii2ImageManager\Helpers\ModelHelper;
+use ricgrangeia\yii2ImageManager\Application\Services\ImageManagerServices;
 
 class ImageManagerBehavior extends Behavior {
 

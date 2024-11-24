@@ -15,8 +15,6 @@ use yii\helpers\Html;
 use yii\web\Response;
 use yii\web\NotFoundHttpException;
 use common\modules\AppController\AppController;
-use common\modules\ImageManager\UI\Controllers\Yii;
-use common\modules\ImageManager\Domain\Entity\ImageCategory\ImageCategorySearch;
 
 
 /**

@@ -5,13 +5,13 @@ namespace ricgrangeia\yii2ImageManager\UI\Controllers;
 use Yii;
 use yii\web\Response;
 use yii\web\Controller;
-use Domain\Entity\Image;
 use yii\filters\VerbFilter;
-use common\Helpers\UIHelper;
-use Domain\Entity\ImageSearch;
 use yii\web\NotFoundHttpException;
-use Application\Services\ImageServices;
-use common\modules\ImageManager\ModuleImageManager;
+use ricgrangeia\yii2ImageManager\Helpers\UIHelper;
+use ricgrangeia\yii2ImageManager\Domain\Entity\Image;
+use ricgrangeia\yii2ImageManager\Domain\Entity\ImageSearch;
+use ricgrangeia\yii2ImageManager\Application\Services\ImageServices;
+
 
 /**
  * ImageController implements the CRUD actions for Image model.

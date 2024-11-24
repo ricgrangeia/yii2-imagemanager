@@ -9,12 +9,12 @@
  * Copyright All rights reserved.
  */
 
-namespace Application\Services;
+namespace ricgrangeia\yii2ImageManager\Application\Services;
 
 
 use Yii;
-use Helpers\ModelHelper;
-use Domain\Entity\Image;
+use ricgrangeia\yii2ImageManager\Helpers\ModelHelper;
+use ricgrangeia\yii2ImageManager\Domain\Entity\Image;
 use yii\db\ActiveRecord;
 use yii\web\UploadedFile;
 
