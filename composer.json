@@ -1,0 +1,43 @@
+{
+  "name": "ricgrangeia/yii2-imagemanager",
+  "description": "Yii2 Image Manager with Api",
+  "homepage": "https://github.com/ricgrangeia/yii2-imagemanager",
+  "type": "yii2-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ricardo Grangeia",
+      "email": "ricardograngeia@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=8.1",
+    "yidas/yii2-bower-asset": "~2.0.13",
+    "yiisoft/yii2": "~2.0.0",
+    "ricgrangeia/yii2-modulebase": "~1.0.1"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-latest"
+  },
+  "autoload": {
+    "psr-4": {
+      "ricgrangeia\\yii2ImageManager\\": "/src"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "yiisoft/yii2-composer": true
+    }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/ricgrangeia/yii2-bower-asset"
+    },
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
+}
