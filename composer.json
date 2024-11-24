@@ -15,7 +15,7 @@
     "php": ">=8.1",
     "yidas/yii2-bower-asset": "dev-master",
     "yiisoft/yii2": "~2.0.0",
-    "ricgrangeia/yii2-modulebase": "dev-main",
+    "ricgrangeia/yii2-modulebase": "~1.0.4",
     "yiisoft/yii2-bootstrap4": "~2.0.0",
     "kartik-v/yii2-grid": "dev-master"
   },
